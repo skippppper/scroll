@@ -1,0 +1,68 @@
+body {
+  height: 900px;
+  padding: 0px;
+  margin: 0px;
+}
+body .body {
+  display: flex;
+  flex: 1 1 auto;
+  min-height: 1290px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("img/one.jpg");
+  background-size: 100% 100%;
+}
+body .body .opasity {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 1290px;
+  background-color: rgba(0, 0, 0, 0.408);
+}
+body button {
+  padding: 166px 20px;
+  background-color: #858585;
+}
+body button:hover {
+  background-color: #9b9b9b;
+}
+body button.clicked {
+  background-color: #40b611;
+}
+body .right {
+  border-radius: 400px 200px 200px 400px;
+}
+body .left {
+  border-radius: 200px 400px 400px 200px;
+}
+
+.div_box {
+  display: flex;
+  flex-wrap: wrap;
+}
+.div_box .div_block {
+  box-shadow: 7px 12px 5px 6px rgba(0, 0, 0, 0.725);
+  justify-content: center;
+  margin: 5px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 20px;
+  opacity: 1;
+  transition: opacity 1s ease-in-out;
+}
+
+@media (min-width: 1062px) {
+  .div_block {
+    width: 250px;
+    height: 350px;
+  }
+}
+@media (max-width: 1062px) {
+  .div_block {
+    width: 150px;
+    height: 350px;
+  }
+}/*# sourceMappingURL=styleSCSS.css.map */
